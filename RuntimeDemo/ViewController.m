@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "UIImage+Image.h"
 
 @interface ViewController ()
 
@@ -16,7 +17,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    UIImage *image = [UIImage imageNamed:@"icon_lianjie0"];
+    image.name = @"lala";
+    NSLog(@"runtime动态添加属性name==%@" ,image.name);
 }
 
 

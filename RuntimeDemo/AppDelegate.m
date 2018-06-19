@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "RuntimeObject.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +17,11 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    RuntimeObject *obj = [[RuntimeObject alloc] init];
+    // 调用test方法，只有声明，没有实现
+    [obj test];
+
     return YES;
 }
 

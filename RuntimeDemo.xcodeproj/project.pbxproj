@@ -13,6 +13,8 @@
 		A16F9DEB209FD9E500B3DFC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A16F9DEA209FD9E500B3DFC0 /* Assets.xcassets */; };
 		A16F9DEE209FD9E500B3DFC0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A16F9DEC209FD9E500B3DFC0 /* LaunchScreen.storyboard */; };
 		A16F9DF1209FD9E500B3DFC0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A16F9DF0209FD9E500B3DFC0 /* main.m */; };
+		A16F9DF9209FDA1900B3DFC0 /* UIImage+Image.m in Sources */ = {isa = PBXBuildFile; fileRef = A16F9DF8209FDA1900B3DFC0 /* UIImage+Image.m */; };
+		A1E608AC20D9565E0098048F /* RuntimeObject.m in Sources */ = {isa = PBXBuildFile; fileRef = A1E608AB20D9565E0098048F /* RuntimeObject.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		A16F9DED209FD9E500B3DFC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A16F9DEF209FD9E500B3DFC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A16F9DF0209FD9E500B3DFC0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A16F9DF7209FDA1900B3DFC0 /* UIImage+Image.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+Image.h"; sourceTree = "<group>"; };
+		A16F9DF8209FDA1900B3DFC0 /* UIImage+Image.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Image.m"; sourceTree = "<group>"; };
+		A1E608AA20D9565E0098048F /* RuntimeObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RuntimeObject.h; sourceTree = "<group>"; };
+		A1E608AB20D9565E0098048F /* RuntimeObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RuntimeObject.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +68,10 @@
 				A16F9DE2209FD9E400B3DFC0 /* AppDelegate.m */,
 				A16F9DE4209FD9E500B3DFC0 /* ViewController.h */,
 				A16F9DE5209FD9E500B3DFC0 /* ViewController.m */,
+				A16F9DF7209FDA1900B3DFC0 /* UIImage+Image.h */,
+				A16F9DF8209FDA1900B3DFC0 /* UIImage+Image.m */,
+				A1E608AA20D9565E0098048F /* RuntimeObject.h */,
+				A1E608AB20D9565E0098048F /* RuntimeObject.m */,
 				A16F9DE7209FD9E500B3DFC0 /* Main.storyboard */,
 				A16F9DEA209FD9E500B3DFC0 /* Assets.xcassets */,
 				A16F9DEC209FD9E500B3DFC0 /* LaunchScreen.storyboard */,
@@ -143,7 +153,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				A16F9DE6209FD9E500B3DFC0 /* ViewController.m in Sources */,
+				A16F9DF9209FDA1900B3DFC0 /* UIImage+Image.m in Sources */,
 				A16F9DF1209FD9E500B3DFC0 /* main.m in Sources */,
+				A1E608AC20D9565E0098048F /* RuntimeObject.m in Sources */,
 				A16F9DE3209FD9E400B3DFC0 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
